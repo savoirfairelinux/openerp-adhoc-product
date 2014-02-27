@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 ##############################################################################
 #
-#    OpenERP, Open Source Management Solution
-#    Copyright (C) 2004-2010 Tiny SPRL (<http://tiny.be>).
+#    Sistemas ADHOC - ADHOC SA
+#    https://launchpad.net/~sistemas-adhoc
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -19,25 +19,32 @@
 #
 ##############################################################################
 
-
 {
     'name': 'Product Price Currency',
     'version': '1.0',
-    'category': 'Sales Management',
+    'category': 'Product',
+    'sequence': 14,
+    'summary': '',
     'description': """
-    The modules allows to define which currency is used in the sale price of
-    the products, allowing to specify a currency in the product that may differ
-    from the one of the company. Every time the price is obtained from the
-    product the price is computed to fit the currency requested.
+Product Price Currency
+======================
     """,
-    'author': 'ADHOC Sistemas',
-    'website': 'http://www.adhocsistemas.com.ar/',
-    'depends': ['product'],
-    'init_xml': [],
-    'update_xml': ['product_view.xml'],
-    'demo_xml': [],
-    'test':[],
+    'author':  'Sistemas ADHOC',
+    'website': 'www.sistemasadhoc.com.ar',
+    'images': [
+    ],
+    'depends': [
+        'product',
+    ],
+    'data': [
+        'product_view.xml',
+    ],
+    'demo': [
+    ],
+    'test': [
+    ],
     'installable': True,
-    'active': False,
+    'auto_install': False,
+    'application': False,
 }
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

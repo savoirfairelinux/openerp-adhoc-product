@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 ##############################################################################
 #
-#    OpenERP, Open Source Management Solution
-#    Copyright (C) 2004-2010 Tiny SPRL (<http://tiny.be>).
+#    Sistemas ADHOC - ADHOC SA
+#    https://launchpad.net/~sistemas-adhoc
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -19,24 +19,36 @@
 #
 ##############################################################################
 
-
 {
     'name': 'Product Pack Sale Order Warning',
     'version': '1.0',
-    'category': 'Base',
-    'description': """When installing the module nan_product_pack, when a pack product
+    'category': 'Product',
+    'sequence': 14,
+    'summary': '',
+    'description': """
+Product Pack Sale Order Warning
+===============================
+When installing the module product_pack, when a pack product
 that is stock dependant is defined, if the components of the pack products are out of
 stock no warning is shown when selecting the pack product.
 
-This module make the warning appears when necessary.""",
-    'author': 'ADHOC Sistemas',
-    'website': 'http://www.adhocsistemas.com.ar/',
-    'depends': ['nan_product_pack'],
-    'init_xml': [],
-    'update_xml': [],
-    'demo_xml': [],
-    'test':[],
+This module make the warning appears when necessary
+    """,
+    'author':  'Sistemas ADHOC',
+    'website': 'www.sistemasadhoc.com.ar',
+    'images': [
+    ],
+    'depends': [
+        'product_pack',
+    ],
+    'data': [
+    ],
+    'demo': [
+    ],
+    'test': [
+    ],
     'installable': True,
-    'active': False,
+    'auto_install': False,
+    'application': False,
 }
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

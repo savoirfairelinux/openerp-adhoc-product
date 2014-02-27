@@ -1,9 +1,8 @@
 # -*- coding: utf-8 -*-
 ##############################################################################
 #
-#    OpenERP, Open Source Management Solution
-#    Copyright (c) 2010-2013 Elico Corp. All Rights Reserved.
-#    Author: LIN Yu <lin.yu@elico-corp.com>
+#    Sistemas ADHOC - ADHOC SA
+#    https://launchpad.net/~sistemas-adhoc
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -23,8 +22,9 @@
 {
     'name': 'Product Supplier Pricelist',
     'version': '1.0',
-    'category': 'purchase',
-    'sequence': 19,
+    'category': 'Product',
+    'sequence': 14,
+    'summary': '',
     'description': """
 Product Supplier Pricelist
 ==========================
@@ -33,20 +33,23 @@ Add sql constraint to restrict:
 2. That you can add olny one record of same quantity for a supplier pricelist
 
 It also adds to more menus (and add some related fields) on purchase/product. 
-
     """,
-    'author': 'Sistemas ADHOC',
-    'website': 'http://www.sistemasadhoc.com.ar',
-    'images' : [],
-    'depends': ['product',],
+    'author':  'Sistemas ADHOC',
+    'website': 'www.sistemasadhoc.com.ar',
+    'images': [
+    ],
+    'depends': [
+        'product',
+    ],
     'data': [
         'product_view.xml',
     ],
-    'test': [],
-    'demo': [],
+    'demo': [
+    ],
+    'test': [
+    ],
     'installable': True,
     'auto_install': False,
     'application': False,
 }
-
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

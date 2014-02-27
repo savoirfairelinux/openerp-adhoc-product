@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 ##############################################################################
 #
-#    OpenERP, Open Source Management Solution
-#    Copyright (C) 2004-2010 Tiny SPRL (<http://tiny.be>).
+#    Sistemas ADHOC - ADHOC SA
+#    https://launchpad.net/~sistemas-adhoc
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -19,22 +19,33 @@
 #
 ##############################################################################
 
-
 {
     'name': 'Product Dimensions',
     'version': '1.0',
-    'category': 'Gestión de ventas',
+    'category': 'Product',
+    'sequence': 14,
+    'summary': '',
     'description': """
-    Agrega dimensiones (largo, alto y ancho) a los productos. Calcula el volumen
-    automaticamente cuando una de estas dimensiones cambia.
+Product Dimensions
+==================
+Agrega dimensiones (largo, alto y ancho) a los productos. Calcula el volumen automaticamente cuando una de estas dimensiones cambia.
     """,
-    'author': 'ADHOC Sistemas',
-    'website': 'http://www.adhocsistemas.com.ar/',
-    'depends': ['product'],
-    'init_xml': [],
-    'update_xml': ['product_view.xml',],
-    'demo_xml': [],
-    'test':[],
+    'author':  'Sistemas ADHOC',
+    'website': 'www.sistemasadhoc.com.ar',
+    'images': [
+    ],
+    'depends': [
+        'product',
+    ],
+    'data': [
+        'product_view.xml',
+    ],
+    'demo': [
+    ],
+    'test': [
+    ],
     'installable': True,
-    'active': False,
+    'auto_install': False,
+    'application': False,
 }
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

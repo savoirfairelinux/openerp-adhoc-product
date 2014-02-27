@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 ##############################################################################
 #
-#    OpenERP, Open Source Management Solution
-#    Copyright (C) 2004-2010 Tiny SPRL (<http://tiny.be>).
+#    Sistemas ADHOC - ADHOC SA
+#    https://launchpad.net/~sistemas-adhoc
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -18,17 +18,33 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 ##############################################################################
-{   'active': False,
-    'author': 'Ingeniería Adhoc',
-    'category': '',
-    'demo_xml': [],
-    'depends': ['product'],
-    'description': 'Module to made "ean13" and "default_code" fields to be unique for products on the same company.',
-    'init_xml': [],
+
+{
+    'name': 'Product Unique',
+    'version': '1.0',
+    'category': 'Product',
+    'sequence': 14,
+    'summary': '',
+    'description': """
+Product Unique
+==============
+Module to made "ean13" and "default_code" fields to be unique for products on the same company.
+    """,
+    'author':  'Sistemas ADHOC',
+    'website': 'www.sistemasadhoc.com.ar',
+    'images': [
+    ],
+    'depends': [
+        'product',
+    ],
+    'data': [
+    ],
+    'demo': [
+    ],
+    'test': [
+    ],
     'installable': True,
-    'name': 'Product Unique EAN or Reference Code',
-    'test': [],
-    'update_xml': [],
-    'version': '0.1',
-    'website': 'http://www.ingenieriaadhoc.com/'}
+    'auto_install': False,
+    'application': False,
+}
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
