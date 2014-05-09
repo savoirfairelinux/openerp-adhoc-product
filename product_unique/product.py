@@ -19,7 +19,7 @@
 #
 ##############################################################################
 
-from osv import osv, fields
+from openerp.osv import osv, fields
 
 def _check_unique_company_and_default_code(self, cr, uid, ids, context=None):
     for product in self.browse(cr, uid, ids, context=context):

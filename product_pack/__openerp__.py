@@ -37,7 +37,7 @@ The module has been made compatible with nan_external_prices and containts code 
     'images': [
     ],
     'depends': [
-        'product',
+        'sale',
         'stock',
     ],
     'data': [

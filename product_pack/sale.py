@@ -28,7 +28,7 @@
 ##############################################################################
 
 import math
-from osv import fields,osv
+from openerp.osv import fields,osv
 
 
 class sale_order_line(osv.osv):

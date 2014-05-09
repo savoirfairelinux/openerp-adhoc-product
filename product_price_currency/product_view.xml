@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openerp>
     <data>
-        <record id="product_price_currency_form_view" model="ir.ui.view">
+<!--         <record id="product_price_currency_form_view" model="ir.ui.view">
             <field name="name">product_price_currency.normal_form_view</field>
             <field name="model">product.product</field>
             <field name="inherit_id" ref="product.product_normal_form_view" />
@@ -16,7 +16,7 @@
                     </group>
                 </field>
             </field>
-        </record>
+        </record> -->
         
 	    <record id="product_price_currency_tree_view" model="ir.ui.view">
             <field name="name">product_price_currency.tree</field>

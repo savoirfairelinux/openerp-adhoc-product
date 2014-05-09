@@ -28,7 +28,7 @@
 ##############################################################################
 
 import math
-from osv import fields,osv
+from openerp.osv import fields,osv
 
 class stock_move(osv.osv):
     _inherit = 'stock.move'

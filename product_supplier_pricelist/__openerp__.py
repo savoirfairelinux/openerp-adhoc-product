@@ -39,7 +39,7 @@ It also adds to more menus (and add some related fields) on purchase/product.
     'images': [
     ],
     'depends': [
-        'product',
+        'purchase',
     ],
     'data': [
         'product_view.xml',

@@ -1,7 +1,7 @@
 
-from osv import fields, osv
-from tools import float_compare
-from tools.translate import _
+from openerp.osv import fields, osv
+from openerp.tools import float_compare
+from openerp.tools.translate import _
 
 class sale_order_line(osv.osv):
     _name = 'sale.order.line'
