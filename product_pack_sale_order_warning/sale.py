@@ -1,3 +1,6 @@
+#    Ingenieria ADHOC - ADHOC SA
+#    https://launchpad.net/~ingenieria-adhoc
+
 
 from openerp.osv import fields, osv
 from openerp.tools import float_compare
