@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 ##############################################################################
 #
-#    Sistemas ADHOC - ADHOC SA
-#    https://launchpad.net/~sistemas-adhoc
+#    Ingenieria ADHOC - ADHOC SA
+#    https://launchpad.net/~ingenieria-adhoc
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -28,10 +28,10 @@
     'description': """
 Product Dimensions
 ==================
-Agrega dimensiones (largo, alto y ancho) a los productos. Calcula el volumen automaticamente cuando una de estas dimensiones cambia.
+Add dimensions (length, width and height) products. Find the volume automatically when you change one of these dimensions.
     """,
-    'author':  'Sistemas ADHOC',
-    'website': 'www.sistemasadhoc.com.ar',
+    'author':  'Ingenieria ADHOC',
+    'website': 'www.ingadhoc.com',
     'images': [
     ],
     'depends': [

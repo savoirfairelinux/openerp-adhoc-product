@@ -1,8 +1,8 @@
 # -*- encoding: latin-1 -*-
 ##############################################################################
 #
-# Copyright (c) 2009 �ngel �lvarez - NaN  (http://www.nan-tic.com) All Rights Reserved.
-#
+#    Ingenieria ADHOC - ADHOC SA
+#    https://launchpad.net/~ingenieria-adhoc#
 #
 # WARNING: This program as such is intended to be used by professional
 # programmers who take the whole responsability of assessing all potential

@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 ##############################################################################
 #
-#    Sistemas ADHOC - ADHOC SA
-#    https://launchpad.net/~sistemas-adhoc
+#    Ingenieria ADHOC - ADHOC SA
+#    https://launchpad.net/~ingenieria-adhoc
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -30,8 +30,8 @@ Product Unique
 ==============
 Module to made "ean13" and "default_code" fields to be unique for products on the same company.
     """,
-    'author':  'Sistemas ADHOC',
-    'website': 'www.sistemasadhoc.com.ar',
+    'author':  'Ingenieria ADHOC',
+    'website': 'www.ingadhoc.com',
     'images': [
     ],
     'depends': [
