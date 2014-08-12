@@ -58,12 +58,11 @@ class product_product(osv.osv):
             return None
     
     _columns = {
-        'length': fields.float('Largo'), # Largo
-        'high': fields.float('Alto'), # Alto
-        'width': fields.float('Ancho'), # Ancho
-        'dimensional_uom': fields.many2one('product.uom', 'UdM dimensional',
-                                           domain="[('category_id.name', '=', 'Length / Distance')]",
-                                           help='Unidad de Medida Dimensional para Largo, Alto y Ancho'),
+        'length': fields.float('Length'),
+        'high': fields.float('Height'),
+        'width': fields.float('Width'),
+        'dimensional_uom': fields.many2one('product.uom', 'Distance UoM',
+                                           help='Unit of Measure for Width, Height and Length'),
     }
 
 product_product()
